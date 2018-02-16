@@ -1,0 +1,30 @@
+{
+  "name": "ikoene/marvel-api-bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "A Symfony bundle that provides a Marvel API client service.",
+  "authors": [
+    {
+      "name": "Koen Vinken",
+      "email": "vinkenkoen@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ikoene\\MarvelApiBundle\\": [""]
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "jms/serializer": "^1.11",
+    "symfony/framework-bundle": "^4.0",
+    "symfony/symfony": "^4.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^4.0",
+    "symfony/console": "^4.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
