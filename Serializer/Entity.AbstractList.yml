@@ -1,0 +1,15 @@
+Ikoene\MarvelApiBundle\Entity\AbstractList:
+    exclusion_policy: ALL
+    properties:
+        available:
+            expose: true
+            serialized_name: available
+            type: integer
+        returned:
+            expose: true
+            serialized_name: returned
+            type: integer
+        collectionURI:
+            expose: true
+            serialized_name: collectionURI
+            type: string

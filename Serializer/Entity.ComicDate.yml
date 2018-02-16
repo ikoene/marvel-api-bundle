@@ -1,0 +1,11 @@
+Ikoene\MarvelApiBundle\Entity\ComicDate:
+    exclusion_policy: ALL
+    properties:
+        type:
+            expose: true
+            serialized_name: type
+            type: string
+        date:
+            expose: true
+            serialized_name: date
+            type: string

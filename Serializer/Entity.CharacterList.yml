@@ -1,0 +1,7 @@
+Ikoene\MarvelApiBundle\Entity\CharacterList:
+    exclusion_policy: ALL
+    properties:
+        items:
+            expose: true
+            serialized_name: items
+            type: ArrayCollection<Ikoene\MarvelApiBundle\Entity\CharacterSummary>

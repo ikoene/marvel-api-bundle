@@ -1,0 +1,67 @@
+Ikoene\MarvelApiBundle\Entity\Event:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            serialized_name: id
+            type: integer
+        title:
+            expose: true
+            serialized_name: title
+            type: string
+        description:
+            expose: true
+            serialized_name: description
+            type: string
+        resourceURI:
+            expose: true
+            serialized_name: resourceURI
+            type: string
+        urls:
+            expose: true
+            serialized_name: urls
+            type: ArrayCollection<Ikoene\MarvelApiBundle\Entity\Url>
+        modified:
+            expose: true
+            serialized_name: modified
+            type: string
+        start:
+            expose: true
+            serialized_name: start
+            type: string
+        end:
+            expose: true
+            serialized_name: end
+            type: string
+        thumbnail:
+            expose: true
+            serialized_name: thumbnail
+            type: Ikoene\MarvelApiBundle\Entity\Image
+        comics:
+            expose: true
+            serialized_name: creators
+            type: Ikoene\MarvelApiBundle\Entity\ComicList
+        stories:
+            expose: true
+            serialized_name: stories
+            type: Ikoene\MarvelApiBundle\Entity\StoryList
+        series:
+            expose: true
+            serialized_name: series
+            type: Ikoene\MarvelApiBundle\Entity\SeriesSummary
+        characters:
+            expose: true
+            serialized_name: characters
+            type: Ikoene\MarvelApiBundle\Entity\CharacterList
+        creators:
+            expose: true
+            serialized_name: creators
+            type: Ikoene\MarvelApiBundle\Entity\CreatorList
+        next:
+            expose: true
+            serialized_name: next
+            type: Ikoene\MarvelApiBundle\Entity\EventSummary
+        previous:
+            expose: true
+            serialized_name: previous
+            type: Ikoene\MarvelApiBundle\Entity\EventSummary

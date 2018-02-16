@@ -1,0 +1,11 @@
+Ikoene\MarvelApiBundle\Entity\Url:
+    exclusion_policy: ALL
+    properties:
+        type:
+            expose: true
+            serialized_name: type
+            type: integer
+        url:
+            expose: true
+            serialized_name: url
+            type: string

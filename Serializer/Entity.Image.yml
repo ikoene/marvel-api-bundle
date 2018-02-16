@@ -1,0 +1,11 @@
+Ikoene\MarvelApiBundle\Entity\Image:
+    exclusion_policy: ALL
+    properties:
+        path:
+            expose: true
+            serialized_name: path
+            type: string
+        extension:
+            expose: true
+            serialized_name: extension
+            type: string

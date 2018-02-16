@@ -1,0 +1,15 @@
+Ikoene\MarvelApiBundle\Entity\TextObject:
+    exclusion_policy: ALL
+    properties:
+        type:
+            expose: true
+            serialized_name: type
+            type: string
+        language:
+            expose: true
+            serialized_name: language
+            type: string
+        text:
+            expose: true
+            serialized_name: text
+            type: string

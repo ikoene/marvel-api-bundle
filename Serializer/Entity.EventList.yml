@@ -1,0 +1,7 @@
+Ikoene\MarvelApiBundle\Entity\EventList:
+    exclusion_policy: ALL
+    properties:
+        items:
+            expose: true
+            serialized_name: items
+            type: ArrayCollection<Ikoene\MarvelApiBundle\Entity\EventSummary>

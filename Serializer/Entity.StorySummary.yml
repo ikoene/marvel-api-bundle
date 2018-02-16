@@ -1,0 +1,15 @@
+Ikoene\MarvelApiBundle\Entity\StorySummary:
+    exclusion_policy: ALL
+    properties:
+        resourceURI:
+            expose: true
+            serialized_name: resourceURI
+            type: string
+        name:
+            expose: true
+            serialized_name: name
+            type: string
+        type:
+            expose: true
+            serialized_name: type
+            type: string

@@ -1,0 +1,11 @@
+Ikoene\MarvelApiBundle\Entity\ComicPrice:
+    exclusion_policy: ALL
+    properties:
+        type:
+            expose: true
+            serialized_name: type
+            type: string
+        price:
+            expose: true
+            serialized_name: price
+            type: float

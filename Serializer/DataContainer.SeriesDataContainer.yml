@@ -1,0 +1,7 @@
+Ikoene\MarvelApiBundle\DataContainer\SeriesDataContainer:
+    exclusion_policy: ALL
+    properties:
+        results:
+            expose: true
+            serialized_name: results
+            type: ArrayCollection<Ikoene\MarvelApiBundle\Entity\Series>

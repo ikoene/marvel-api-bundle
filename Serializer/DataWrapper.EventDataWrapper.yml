@@ -1,0 +1,7 @@
+Ikoene\MarvelApiBundle\DataWrapper\EventDataWrapper:
+    exclusion_policy: ALL
+    properties:
+        data:
+            expose: true
+            serialized_name: data
+            type: Ikoene\MarvelApiBundle\DataContainer\EventDataContainer

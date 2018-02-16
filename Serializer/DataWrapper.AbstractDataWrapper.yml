@@ -1,0 +1,28 @@
+Ikoene\MarvelApiBundle\DataWrapper\AbstractDataWrapper:
+    exclusion_policy: ALL
+    properties:
+        code:
+            expose: true
+            serialized_name: code
+            type: integer
+        status:
+            expose: true
+            serialized_name: status
+            type: string
+        copyright:
+            expose: true
+            serialized_name: copyright
+            type: string
+        attributionText:
+            expose: true
+            serialized_name: attributionText
+            type: string
+        attributionHTML:
+            expose: true
+            serialized_name: attributionHTML
+            type: string
+        etag:
+            expose: true
+            serialized_name: etag
+            type: string
+

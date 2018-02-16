@@ -1,0 +1,19 @@
+Ikoene\MarvelApiBundle\DataContainer\AbstractDataContainer:
+    exclusion_policy: ALL
+    properties:
+        offset:
+            expose: true
+            serialized_name: offset
+            type: integer
+        limit:
+            expose: true
+            serialized_name: limit
+            type: integer
+        total:
+            expose: true
+            serialized_name: total
+            type: integer
+        count:
+            expose: true
+            serialized_name: count
+            type: integer

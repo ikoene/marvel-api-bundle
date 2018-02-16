@@ -1,0 +1,7 @@
+services:
+    ikoene_marvel_api_client:
+        class: Ikoene\MarvelApiBundle\Controller\Client
+        public: true
+        arguments:
+            - '%env(PUBLIC_API_KEY)%'
+            - '%env(PRIVATE_API_KEY)%'
