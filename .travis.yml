@@ -1,0 +1,14 @@
+language: php
+
+matrix:
+  include:
+    - php: 7.1
+
+before_install:
+    - composer selfupdate
+
+install:
+    - composer update --no-scripts --no-interaction
+
+script:
+    - bin/simple-phpunit -c phpunit.xml
