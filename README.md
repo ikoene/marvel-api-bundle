@@ -1,10 +1,11 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ikoene/marvel-api-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ikoene/marvel-api-bundle/?branch=master)
 [![Packagist](https://img.shields.io/packagist/v/ikoene/marvel-api-bundle.svg)](https://packagist.org/packages/ikoene/marvel-api-bundle)
-[![license](https://img.shields.io/github/license/ikoene/marvel-api-client.svg?maxAge=2592000)](https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
+[![Installs](https://img.shields.io/packagist/dt/ikoene/marvel-api-bundle.svg)](https://packagist.org/packages/ikoene/marvel-api-bundle)
+[![license](https://img.shields.io/github/license/ikoene/marvel-api-bundle.svg?maxAge=2592000)](https://github.com/ikoene/Marvel-API-bundle/blob/master/LICENSE)
 
+# Marvel API bundle
 
-# Marvel API client
-
-The **Marvel Comics API** allows developers everywhere to access information about Marvel's vast library of comics—from what's coming up, to 70 years ago. This **Marvel API client** helps you explore the Marvel universe with great ease.
+The **Marvel Comics API** allows developers everywhere to access information about Marvel's vast library of comics—from what's coming up, to 70 years ago. This **Marvel API bundle** helps you explore the Marvel universe with great ease.
 ## Requirements
 
 * PHP 7.1.0
