@@ -1,7 +1,10 @@
+[![Packagist](https://img.shields.io/packagist/v/ikoene/marvel-api-bundle.svg)](https://packagist.org/packages/ikoene/marvel-api-bundle)
+[![license](https://img.shields.io/github/license/ikoene/marvel-api-client.svg?maxAge=2592000)](https://github.com/ikoene/Marvel-API-client/blob/master/LICENSE)
+
+
 # Marvel API client
 
 The **Marvel Comics API** allows developers everywhere to access information about Marvel's vast library of comics—from what's coming up, to 70 years ago. This **Marvel API client** helps you explore the Marvel universe with great ease.
-
 ## Requirements
 
 * PHP 7.1.0
@@ -28,7 +31,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require <package-name>
+$ composer require ikoene/marvel-api-bundle
 ```
 
 This command requires you to have Composer installed globally, as explained
