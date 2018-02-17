@@ -3,5 +3,5 @@ services:
         class: Ikoene\MarvelApiBundle\Controller\Client
         public: true
         arguments:
-            - '%env(PUBLIC_API_KEY)%'
-            - '%env(PRIVATE_API_KEY)%'
+            - '%env(MARVEL_PUBLIC_API_KEY)%'
+            - '%env(MARVEL_PRIVATE_API_KEY)%'
