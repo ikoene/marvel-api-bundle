@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ikoene/marvel-api-bundle.svg?branch=master)](https://travis-ci.org/ikoene/marvel-api-bundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ikoene/marvel-api-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ikoene/marvel-api-bundle/?branch=master)
 [![Packagist](https://img.shields.io/packagist/v/ikoene/marvel-api-bundle.svg)](https://packagist.org/packages/ikoene/marvel-api-bundle)
 [![Installs](https://img.shields.io/packagist/dt/ikoene/marvel-api-bundle.svg)](https://packagist.org/packages/ikoene/marvel-api-bundle)
