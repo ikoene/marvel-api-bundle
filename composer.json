@@ -17,7 +17,7 @@
   "require": {
     "guzzlehttp/guzzle": "^6.3",
     "jms/serializer": "^1.11",
-    "symfony/framework-bundle": "^4.0"
+    "symfony/framework-bundle": "^3.4"
   },
   "require-dev": {
     "symfony/phpunit-bridge": "^4.0",
