@@ -11,4 +11,4 @@ install:
     - composer update --no-scripts --no-interaction
 
 script:
-    - bin/simple-phpunit -c phpunit.xml
+    - bin/simple-phpunit -c phpunit.xml.dist
