@@ -21,7 +21,7 @@ use JMS\Serializer\SerializerBuilder;
 
 /**
  * Class Client
- * @package ikoene\Marvel
+ * @package Ikoene\MarvelApiBundle\Controller
  */
 class Client
 {
@@ -41,8 +41,6 @@ class Client
     private $privateApiKey;
 
     /**
-     * Client constructor.
-     *
      * @param string $publicApiKey
      * @param string $privateApiKey
      */
