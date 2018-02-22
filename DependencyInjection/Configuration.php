@@ -20,8 +20,8 @@ class Configuration implements ConfigurationInterface
         $rootNode = $treeBuilder->root('ikoene_marvel_api');
         $rootNode
             ->children()
-            ->scalarNode('public_api_key')->isRequired()->end()
-            ->scalarNode('private_api_key')->isRequired()->end()
+            ->scalarNode('public_api_key')->defaultNull()->end()
+            ->scalarNode('private_api_key')->defaultNull()->end()
             ->end()
             ->end();
 
