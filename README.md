@@ -66,6 +66,16 @@ class AppKernel extends Kernel
 }
 ```
 
+### Step 3: Configure the bundle
+
+``` yaml
+# You will need a public and private api key from https://developers.marvel.com".
+# Set the keys as environment variables in the .env file.
+ikoene_marvel_api:
+    public_api_key: "%env(MARVEL_PUBLIC_API_KEY)%"
+    private_api_key: "%env(MARVEL_PRIVATE_API_KEY)%"
+```
+
 ## Usage
 
 ```
