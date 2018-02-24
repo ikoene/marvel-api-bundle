@@ -66,7 +66,7 @@ class AppKernel extends Kernel
 }
 ```
 
-### Step 3: Configure the bundle
+### Step 3: Configure the Bundle
 
 ``` yaml
 # You will need a public and private api key from https://developers.marvel.com".
