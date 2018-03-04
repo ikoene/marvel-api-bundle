@@ -18,13 +18,14 @@ class IkoeneMarvelApiExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('marvel.public_api_key', $config['public_api_key']);
-        $container->setParameter('marvel.private_api_key', $config['private_api_key']);
-
         $loader = new YamlFileLoader(
             $container,
             new FileLocator(__DIR__ . '/../Resources/config')
         );
         $loader->load('services.yml');
+
+        $container->getDefinition('ikoene_marvel_api_client')
+            ->setArgument(0, $config['public_api_key'])
+            ->setArgument(1, $config['private_api_key']);
     }
 }
