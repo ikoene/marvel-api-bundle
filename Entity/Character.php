@@ -2,8 +2,6 @@
 
 namespace Ikoene\MarvelApiBundle\Entity;
 
-use Doctrine\Common\Collections\ArrayCollection;
-
 /**
  * Class Character
  * @package Ikoene\MarvelApiBundle\Entity
@@ -48,7 +46,7 @@ class Character
     /**
      * A set of public web site URLs for the resource.
      *
-     * @var ArrayCollection
+     * @var array
      */
     private $urls;
 
@@ -168,7 +166,7 @@ class Character
     }
 
     /**
-     * @return ArrayCollection
+     * @return array
      */
     public function getUrls()
     {
@@ -176,9 +174,9 @@ class Character
     }
 
     /**
-     * @param ArrayCollection $urls
+     * @param array $urls
      */
-    public function setUrls(ArrayCollection $urls)
+    public function setUrls(array $urls)
     {
         $this->urls = $urls;
     }
